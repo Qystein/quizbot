@@ -15,7 +15,7 @@ A customizable Discord bot for hosting quiz games in your server. Players can jo
 
 ## Creating Quiz Files
 
-Quiz files are stored in the `quizzes` folder as JSON files. Each file represents a different quiz. (I recommend using chatGPT, claude.ai or similiar services for creating .json files. just paste the "build" and what kind of quiz you want)
+Quiz files are stored in the `quizzes` folder as JSON files. Each file represents a different quiz. (I recommend using chatGPT, claude.ai or similar for creating .json files. just paste the "build" and quiz-topic)
 
 ### Quiz File Structure
 ```json
