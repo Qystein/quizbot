@@ -156,7 +156,7 @@ async def start(ctx):
             try:
                 response = await bot.wait_for(
                     'message',
-                    timeout=5.0,
+                    timeout=10.0,
                     check=lambda m: m.author == player and m.channel == ctx.channel
                 )
                 answers[player.name] = response.content
